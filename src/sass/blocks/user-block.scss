@@ -1,0 +1,40 @@
+.user-block {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 40px;
+  @media #{$desktop} {
+    width: 570px;
+  }
+}
+.user-block img {
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  @media #{$tablet} {
+    width: 90px;
+    height: 90px;
+  }
+}
+.user-block__name-title {
+  color: #fff;
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.user-block__career {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 0;
+}
+.user-block__btn {
+  margin-bottom: 60px;
+  @media #{$tablet} {
+    margin-bottom: 20vh;
+  }
+}

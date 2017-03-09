@@ -1,0 +1,23 @@
+.page-header {
+ background-color: #000;
+ width: 100%;
+}
+.header-wrap {
+  position: relative;
+  @include container;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  @media #{$tablet} {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.page-header svg {
+  width: 100%;
+  height: 70px;
+  display: block;
+  fill: #efefef;
+}
